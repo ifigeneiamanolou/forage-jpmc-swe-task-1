@@ -18,6 +18,7 @@
 #  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
 #  DEALINGS IN THE SOFTWARE.
 
+
 import json
 import random
 import urllib.request
@@ -58,4 +59,4 @@ if __name__ == "__main__":
             prices [stock] = price
             print("Quoted %s at (bid:%s, ask:%s, price:%s)" % (stock, bid_price, ask_price, price))
 
-        print("Ratio %s" % getRatio(prices ["ABC"], prices ["DEF"]))
+        print ("Ratio %s" % getRatio(prices ["ABC"], prices ["DEF"]))
